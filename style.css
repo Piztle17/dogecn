@@ -608,19 +608,10 @@ input::placeholder {
         justify-content: space-between;
         align-items: center;
         padding: 1rem;
+        background: transparent;
     }
     .wdtt {
-        width: 90%;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: normal;
-        flex-direction: column;
-        position: absolute;
-        height: 100vh;
-        width: 100%;
-        background: black;
-        top: 0;
+    
         display: none;
     }
     body {
@@ -664,7 +655,7 @@ input::placeholder {
         font-size: 43px;
     }
     .sec3fle {
-        width: 90%;
+        width: 74%;
     }
     .sec4 h2 {
         font-size: 46px;
