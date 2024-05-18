@@ -61,6 +61,7 @@ header .logo {
     align-items: center;
     gap: 1rem;
 }
+
 .flexsocial span {
     padding: 5px;
     border: 1px solid white;
@@ -73,6 +74,15 @@ header .logo {
     color: black;
     font-weight: 800;
 } 
+.language {
+    display: flex;
+    align-items: center;
+}
+.language img {
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+}
 section {
     /* height: 100vh; */
     width: 90%;
@@ -91,9 +101,10 @@ section {
     margin: auto;
     padding: 9rem 0;
 }
-.side1 .side2 {
-    width: 48%;
+.side1, .side2 {
+    width: 50%;
 }
+
 .outline-title {
     text-shadow: 0px 4px 8px rgba(0, 0, 0, .5);
     -webkit-text-stroke-width: 2px;
@@ -102,7 +113,7 @@ section {
     -webkit-text-stroke: 6px transparent;
     color: #fff;
     text-align: center;
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 800;
     text-align: center;
     font-family: sans-serif;
@@ -596,6 +607,7 @@ input::placeholder {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 1rem;
     }
     .wdtt {
         width: 90%;
@@ -609,19 +621,21 @@ input::placeholder {
         width: 100%;
         background: black;
         top: 0;
+        display: none;
     }
     body {
-        background-size: auto;
+        background-size: cover;
     }
     .flexsec1 {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 0rem !important;
+        margin-top: 11rem;
     }
-    .side1 .side2 {
-        width: 100%;
+    .side1, .side2 {
+        width: 100% !important;
     }
     .side1 {
-        padding-top: 8rem !important;
+        padding-top: 0rem !important;
     }
     .inercontent {
         font-size: 13px;
@@ -715,6 +729,17 @@ input::placeholder {
     }
     .glas3 {
         max-width: 90%;
+    }
+    .mmm {
+        background: black;
+    }
+}
+@media screen and (max-width: 500px) {
+    .inercontent {
+        padding: 1rem;
+    }
+    section {
+        width: 100%;
     }
 }
 
