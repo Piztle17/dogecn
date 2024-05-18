@@ -228,7 +228,7 @@ input::placeholder {
     gap: 1rem;
     margin-top: 1rem;
 }
-.flbtn a {
+.flbtn a, .flbtn>div {
     font-size: 14px;
     font-weight: 600;
     border-radius: 35px;
@@ -239,6 +239,7 @@ input::placeholder {
     text-decoration: none;
     width: 48%;
     text-align: center;
+    cursor: pointer;
 }
 .flexweb3 {
     display: flex;
