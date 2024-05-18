@@ -625,6 +625,7 @@ input::placeholder {
     }
     body {
         background-size: cover;
+        overflow-x: hidden;
     }
     .flexsec1 {
         flex-direction: column-reverse;
