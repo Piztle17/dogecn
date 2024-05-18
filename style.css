@@ -24,10 +24,16 @@ header {
     top: 0;
     width: 100%;
     z-index: 100;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 header .logo {
     width: 10%;
 }
+#logoh {
+    display: none;
+}
+
 .wdtt {
     width: 90%;
     margin: auto;
@@ -557,3 +563,158 @@ input::placeholder {
     font-size: 13px;
     margin-top: 8px;
 } 
+.mobilef>div {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: start;
+    margin: 7px 0;
+    display: none;
+}
+.hdss {
+    text-align: end;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger i {
+    font-size: 2rem;
+}
+/* MEDIA QUERY */
+@media screen and (max-width: 768px){
+    .burger {
+        display: block;
+    }
+    #logoh {
+        display: block;
+        width: 27%;
+    }
+    #logo33 {
+        display: none;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .wdtt {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: normal;
+        flex-direction: column;
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        background: black;
+        top: 0;
+    }
+    body {
+        background-size: auto;
+    }
+    .flexsec1 {
+        flex-direction: column;
+        padding: 0rem !important;
+    }
+    .side1 .side2 {
+        width: 100%;
+    }
+    .side1 {
+        padding-top: 8rem !important;
+    }
+    .inercontent {
+        font-size: 13px;
+    }
+    .img1 {
+        width: auto;
+    }
+    .fleximages {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        width: 80%;
+        /* align-items: center; */
+        gap: 1rem;
+        margin: 1rem auto;
+    }
+    .flex3box {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .sec3 h1  {
+        font-size: 43px;
+    }
+    .sec3fle {
+        width: 90%;
+    }
+    .sec4 h2 {
+        font-size: 46px;
+        margin: 2rem 0;
+    }
+    .flesec4 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 1rem 0;
+        width: 100%;
+        margin: auto;
+    }
+    .sec4glas1, .sec4glas2 {
+        width: 100%;
+    }
+    .box1 {
+        align-items: start !important;
+    } 
+    .roadmapcontent {
+        width: 80%;
+        margin: auto;
+    }
+    .sec5 h2 {
+        font-size: 48px !important;
+        margin: 2rem 0 !important;
+    }
+    .gridsec6  {
+        grid-template-columns: 1fr;
+    }
+    .fqbox h1 {
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .mobilef>div {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .hdss {
+        display: none;
+    }
+    .about1  {
+        grid-template-columns: 1fr 1fr;
+    }
+    .fnfoo {
+        font-size: 32px;
+    }
+    .lastflesec {
+        flex-direction: column;
+    }
+    .lastflesec span {
+        display: block !important;
+        text-align: start !important;
+    }
+    .ffrow {
+        font-size: 12px;
+    }
+    .glas3 h3 {
+        font-size: 26px;
+    }
+    .glas3 {
+        max-width: 90%;
+    }
+}
+
